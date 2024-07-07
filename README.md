@@ -13,5 +13,6 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 import numpy as np
 from google.colab import drive
-import matplotlib.pyplot as plt```
+import matplotlib.pyplot as plt
+```
 
