@@ -1,2 +1,2 @@
 # CNN-Digit-Classification
-Handwritten digit classification project using the MNIST dataset as an interactive approach to learning deep learning and pytorch
+After watching Andrej Karpathy's micrograd video and gaining a basic understanding of MLP's, I wanted to continue my exploration of deep learning via interactive learning. This project provided a simple way for me to learn how to write out simple neural network architectures in pytorch, while also giving me motivation to learn more about deep learning, specifically CNN's.
