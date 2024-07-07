@@ -5,7 +5,7 @@ Before getting into any implementation, first I wanted to solidify my understand
 
 # Data setup and exploration
 First let's import all the necessary libraries
-`import torch
+```import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
@@ -13,5 +13,5 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 import numpy as np
 from google.colab import drive
-import matplotlib.pyplot as plt`
+import matplotlib.pyplot as plt```
 
