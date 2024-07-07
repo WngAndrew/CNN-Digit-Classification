@@ -5,7 +5,8 @@ Before getting into any implementation, first I wanted to solidify my understand
 
 # Data setup and exploration
 First let's import all the necessary libraries
-```import torch
+```python
+import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
@@ -14,5 +15,30 @@ from torchvision import datasets, transforms
 import numpy as np
 from google.colab import drive
 import matplotlib.pyplot as plt
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(device)
+
+#load the datasets
+training_data = datasets.MNIST(
+    root = "data",
+    train = True,
+    download = True,
+    transform = transforms.ToTensor()
+)
+
+testing_data = datasets.MNIST(
+    root = "data",
+    train = False,
+    download = True,
+    transform = transforms.ToTensor()
+)
+
+#analyzing / understanding datasets
+print(training_data.data.shape)
+print(testing_data.data.shape)
+
+image, label = training_data[0]
+print(image.shape, label)
 ```
 
