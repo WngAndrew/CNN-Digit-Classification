@@ -151,3 +151,15 @@ It seemed like the model was starting to overfit, and the accuracy was satisfact
 Now let's see the model work real time with a GUI
 
 <img src="https://github.com/WngAndrew/CNN-Digit-Classification/assets/108479242/58ed2189-93a3-410d-992b-78a9072aedba" alt="Digit Classifier GUI" width="400"/>
+
+# Conclusion
+It was a fun process working on this mini project and it provided a more intuitvely structured approach to deep learning, CNN's, and pytorch basics. 
+
+Below are some of the resources I found helpful:
+- [Understanding standard back prop](https://xnought.github.io/backprop-explainer/)
+- [Andrej Karpathy's lecture on micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0&t=435s)
+- [Video on CNN backprop](https://www.youtube.com/watch?v=z9hJzduHToc&list=LL&index=1&t=3s&ab_channel=far1din)
+- [Convolution Animation](https://www.youtube.com/watch?v=w4kNHKcBGzA&ab_channel=AnimatedAI)
+- [Stanford's computer vision course website](https://cs231n.stanford.edu/)
+- [CMU lecture on backprop in CNN's](https://deeplearning.cs.cmu.edu/F21/document/recitation/Recitation5/CNN_Backprop_Recitation_5_F21.pdf)
+
